@@ -1,0 +1,1008 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "7fd5de72-aba6-4226-bdd2-842feeeb4999",
+      "login": "admin",
+      "name": "Администратор",
+      "role": "admin",
+      "salt": "0562b0722b01bf3a29fee2c0701b64db",
+      "hash": "31b05323627afd24415dfd65aa5339ea41dba512a8cd9184b79e35e302852b30671f41752b57364517fc4cf3d62a08e84bf0545be936c59b74b936bdd0d59fa1",
+      "groupId": "",
+      "teacherId": ""
+    },
+    {
+      "id": "5d6835fb-b584-43fb-99c5-0fa0e5974759",
+      "login": "dispatcher",
+      "name": "Диспетчер Ольга",
+      "role": "dispatcher",
+      "salt": "03e782473a1663e1efe4a2d07a2bfc12",
+      "hash": "a6b92ce8877f4eba03e597d828ce4f291279492325beaf278661b567953c117761c337eef448e8d4f40e77a36e30d575d3df863853ecf3e1b38742bac93158dd",
+      "groupId": "",
+      "teacherId": ""
+    },
+    {
+      "id": "7b53aed4-5843-423e-9b01-1ecadbf9801d",
+      "login": "teacher1",
+      "name": "Иванова Анна Викторовна",
+      "role": "teacher",
+      "salt": "1f5554db9bb5744cde2dc1554711cca0",
+      "hash": "47e42bfa7d147b96637767ef2d7fbac42ac0dd5175654b583729d1e0a2fc46285db977d174f87fafcb4a10b0496dcc296e5992701430ee969facbcbedcd09e4c",
+      "groupId": "",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41"
+    },
+    {
+      "id": "5195a416-9c68-4bf6-a3da-754eeb008ce9",
+      "login": "teacher2",
+      "name": "Петров Сергей Николаевич",
+      "role": "teacher",
+      "salt": "f5fb764bdbca4adc0e48b3e71467365c",
+      "hash": "768a3fdd9dab698f0fe71a9dd976f3603b66b8a6dbe031f5345a99e08b50f824c833ecd2112c6da17877ae188e91fde6f733559ec7e587b47bd7474e138860c5",
+      "groupId": "",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e"
+    },
+    {
+      "id": "af64319f-a59a-4456-bf6a-ed8d173aa363",
+      "login": "student1",
+      "name": "Студент ИС-21",
+      "role": "student",
+      "salt": "9c4f96217a3022d3635f5432f03b4197",
+      "hash": "373ffd846d92d347010f5e7c4d5ae527857e06d04e540976b1f29870e72b61d16ab70a3425d2b8de79ca06bab267ffce6bfad8ef6270349e7348fb9760d5c456",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "teacherId": ""
+    },
+    {
+      "id": "6ddc82d8-5f56-4e0a-b18d-37c628ff7740",
+      "login": "student2",
+      "name": "Студент ПИ-21",
+      "role": "student",
+      "salt": "bdcd2948d7c6a15a3f4fffdde5fb27e9",
+      "hash": "4d8215970151a5e97282c001c98fbb905b46476b2f083fa4bcd415af1c9336d97023520c2ed55b5b7a579a060f4cdd724329245c56d47f21ee08c678c58afb78",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "teacherId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "5306fa18-7d68-4a66-a9df-65bdb5b18e52",
+      "date": "2026-11-23",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "7c7a0786-9134-4eda-8c0a-45fa05ece414",
+      "date": "2026-11-23",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "107cb032-55ce-4ad7-a16f-50eb20b739f2",
+      "date": "2026-11-23",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "357587f2-a51c-46a1-9b17-a12d9982fe18",
+      "date": "2026-11-23",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "5a340077-0017-4521-9fb0-d8255c06a016",
+      "date": "2026-11-23",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "791f6f7f-5008-4062-ad96-4c342c358ba2",
+      "date": "2026-11-23",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "cf4f65af-be52-4ddf-8e6b-47d2dc946983",
+      "date": "2026-11-23",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "d7b2eac8-b114-4960-a6d6-35578f484912",
+      "date": "2026-11-23",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "84121369-739d-483d-bb27-c6b41c6de019",
+      "date": "2026-11-24",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "8a89197c-f98e-4d07-a484-5b1b69dd3b2f",
+      "date": "2026-11-24",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "1c50a957-4fef-4cb8-9626-ef9024162419",
+      "date": "2026-11-24",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "9bd835ef-4d9f-4659-8c4e-13250e8bd209",
+      "date": "2026-11-24",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "cb42349a-f30e-4e30-8cd8-1e355cba908a",
+      "date": "2026-11-24",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "3a6a00c7-d2e3-4533-bbed-63e2db76a96b",
+      "date": "2026-11-24",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "8c88e242-3f84-4478-a36d-c24cf46efd7a",
+      "date": "2026-11-24",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "e09b24fd-9091-4eaa-8ede-2f2c95814655",
+      "date": "2026-11-25",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "2c2d77fd-6892-4afd-a979-60930445860a",
+      "date": "2026-11-25",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "f3636b00-9f68-44f9-8972-b6f1b09e976b",
+      "date": "2026-11-25",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "4d2139c9-3f3b-4bd1-88b7-5dea5742977d",
+      "date": "2026-11-25",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "e8cc3d6f-b584-4730-ab62-46eea07a8389",
+      "date": "2026-11-25",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "a8e89f08-c3fe-4422-a804-825991de2e65",
+      "date": "2026-11-25",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "7e6258b8-e09f-4cb3-980e-2a08e99905ea",
+      "date": "2026-11-25",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "35294947-f54e-4d8b-baa2-4e244d6665f5",
+      "date": "2026-11-26",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "1e233847-a647-4576-9139-d74b6e0c5afd",
+      "date": "2026-11-26",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "d090c6a3-caea-4424-9200-2e05263dbba7",
+      "date": "2026-11-26",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "5e841d17-1780-43d6-9cae-c7015a681f95",
+      "date": "2026-11-26",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "46a71643-4b5f-4b9a-90a2-25de2f006e34",
+      "date": "2026-11-26",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "039d3270-8616-42d2-9f1c-d850633fe5b1",
+      "date": "2026-11-26",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "5abdd6ae-c664-4ccb-aad6-44b4b2be49e0",
+      "date": "2026-11-26",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "d57d68cd-d140-4d3c-90f7-76fe68d48a32",
+      "date": "2026-11-27",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "a8a91050-87d1-4a7e-8e23-014611c4a75d",
+      "date": "2026-11-27",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "8cc01570-9138-466b-85ca-2d4adb678e2a",
+      "date": "2026-11-27",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "7d66da30-ca9e-4158-8e89-c5e4c761e03e",
+      "date": "2026-11-27",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "c699e9da-d187-4929-95a8-97dbf72615c8",
+      "date": "2026-11-27",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "f649a74d-38fe-405e-9e39-ebdf80c93715",
+      "date": "2026-11-27",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "2dbad0ca-be2f-4396-ab99-8fe856bea52e",
+      "date": "2026-11-30",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "edb7a623-a276-4643-a12f-33754a8526dd",
+      "date": "2026-11-30",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "38653cfa-15ad-43f7-91bf-3b3a0cfda518",
+      "date": "2026-11-30",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "fd7096cc-9eb8-4b00-b075-1838af4ee5e7",
+      "date": "2026-11-30",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "429f5409-858f-4578-a6f5-4e93c9d2646b",
+      "date": "2026-11-30",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "6e9eb54d-fb06-4080-b186-2963f3ccb67a",
+      "date": "2026-11-30",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "6ba5091a-9524-4228-8ddf-684999b6f8ff",
+      "date": "2026-11-30",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "33f7e337-cd8e-4b21-8772-5a9c6243c7d4",
+      "date": "2026-11-30",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "3e6021fc-3338-459f-8d5b-d4a29e8ef0dd",
+      "date": "2026-12-01",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "f7cea6eb-6385-4709-9556-4272a1c1ced4",
+      "date": "2026-12-01",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "77ba2b19-01c0-4632-b6f5-e1cbf6dbe13c",
+      "date": "2026-12-01",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "11a9467a-4d91-47c9-ac26-786f1e726f4e",
+      "date": "2026-12-01",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "0a3a10d1-7310-4123-a880-2cde9bc972d5",
+      "date": "2026-12-01",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "86bea3a5-df8b-4124-9155-f2c5d7337731",
+      "date": "2026-12-01",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "3fe439a2-34e5-4267-a312-d8c3c922f31d",
+      "date": "2026-12-01",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "cab8ffa4-a4cb-4267-bfcc-30db9fc4ef82",
+      "date": "2026-12-02",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "a8dcc50c-281d-4946-882a-8fb36738ac5a",
+      "date": "2026-12-02",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "d5d098f5-df81-4a54-9bb6-686dd870e106",
+      "date": "2026-12-02",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "5db397b1-74bd-4fd5-ab5c-c19491edb2fd",
+      "date": "2026-12-02",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "2d7f0711-ec05-4a30-8dbd-3cd5f01cb1be",
+      "date": "2026-12-02",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "3f4957c1-4228-4cef-968f-3f608bb12f77",
+      "date": "2026-12-02",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "9195a00d-9ce7-438a-9632-36f54b32dcb4",
+      "date": "2026-12-02",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "e271dbfa-d18d-416c-a411-b2c2b758a3ac",
+      "date": "2026-12-03",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "8a55118b-7fce-4139-b02e-68119742e88d",
+      "date": "2026-12-03",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "33bf6e93-a343-4569-8d63-021c90837e45",
+      "date": "2026-12-03",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "16e39c37-5a79-4d24-aa81-9b7c9d8987a6",
+      "date": "2026-12-03",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "5bc75d04-6a35-4d47-9850-2729294b205c",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "47e87251-b7ff-42cc-b60f-bae0009b3468",
+      "date": "2026-12-03",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "2d71afbd-1060-4a2f-877a-e8891e3debb1",
+      "date": "2026-12-03",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "011f6b77-def5-4f66-8157-1fa2ba4adaf9",
+      "date": "2026-12-03",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "e22f8634-fbae-48e8-a23b-cd8eb4075b23",
+      "date": "2026-12-04",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "38752274-e8e6-4081-9b48-60ca0424a18e",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "d70e7aa2-176a-4117-8c36-875fcb203c28",
+      "date": "2026-12-04",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "0b1f0f65-2781-470a-908a-f33611606404",
+      "groupId": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+      "roomId": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "2769ccfc-f171-4637-8dd2-a0f3fd79df33",
+      "date": "2026-12-04",
+      "start": "09:00",
+      "end": "10:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+      "roomId": "ab259927-a58b-4495-a648-54239a2d6665",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "7a44cf15-64aa-4390-bae8-5b6ac027ceab",
+      "date": "2026-12-04",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+      "groupId": "107c428a-f292-452a-94a1-1427eea7ab25",
+      "roomId": "d454a90c-17ad-4e06-9ac9-59690992b947",
+      "teacherId": "fc679308-983b-4529-956e-f58c418cdd41",
+      "status": "cancelled",
+      "note": "Отменено из-за болезни преподавателя"
+    },
+    {
+      "id": "a4151088-d0fc-4036-ad17-2a34114f32f2",
+      "date": "2026-12-04",
+      "start": "11:00",
+      "end": "12:30",
+      "subjectId": "3c575959-0a68-4c13-9160-d6f5c6531609",
+      "groupId": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+      "roomId": "883e0f94-dd07-4232-8af3-347b975bbf81",
+      "teacherId": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+      "status": "planned",
+      "note": ""
+    },
+    {
+      "id": "e3cc47ce-fb83-4a75-a336-f9937aa54a67",
+      "date": "2026-12-04",
+      "start": "13:00",
+      "end": "14:30",
+      "subjectId": "9f93965f-01cb-478e-8e33-0aef18b62863",
+      "groupId": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+      "roomId": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+      "teacherId": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+      "status": "cancelled",
+      "note": "Перенос по заявлению преподавателя"
+    }
+  ],
+  "audit": [
+    {
+      "at": "2026-11-26T14:31:47.191Z",
+      "user": "system",
+      "action": "Сгенерированы демонстрационные данные"
+    }
+  ],
+  "refs": {
+    "groups": [
+      {
+        "id": "d20ceae9-0841-4945-949c-1cc1ae623c06",
+        "name": "ИС-21"
+      },
+      {
+        "id": "107c428a-f292-452a-94a1-1427eea7ab25",
+        "name": "ИС-22"
+      },
+      {
+        "id": "6af6913e-6b5a-4334-a58f-6f9da74180ec",
+        "name": "ПИ-21"
+      },
+      {
+        "id": "ae828b72-27da-4aaa-bcd3-0e34d82fab30",
+        "name": "ПИ-22"
+      },
+      {
+        "id": "077fb775-d540-494e-a0a1-b9e4b6b671c2",
+        "name": "ЭК-21"
+      }
+    ],
+    "rooms": [
+      {
+        "id": "4666be15-f04e-4728-be6f-4b3adfb5c583",
+        "name": "101"
+      },
+      {
+        "id": "d454a90c-17ad-4e06-9ac9-59690992b947",
+        "name": "202"
+      },
+      {
+        "id": "ab259927-a58b-4495-a648-54239a2d6665",
+        "name": "303"
+      },
+      {
+        "id": "1727afb2-746f-4726-a6e3-bd7e73f73974",
+        "name": "Лаб-1"
+      },
+      {
+        "id": "883e0f94-dd07-4232-8af3-347b975bbf81",
+        "name": "Лаб-2"
+      }
+    ],
+    "teachers": [
+      {
+        "id": "fc679308-983b-4529-956e-f58c418cdd41",
+        "name": "Иванова А. В."
+      },
+      {
+        "id": "af0fa341-c98a-47f4-9ea5-462d386e541e",
+        "name": "Петров С. Н."
+      },
+      {
+        "id": "b2b6dab4-c54a-46cc-a2f5-b734915eb253",
+        "name": "Сидорова Е. М."
+      },
+      {
+        "id": "1365ef7a-7619-40c8-a0f4-401f1de7c2d2",
+        "name": "Козлов Д. А."
+      },
+      {
+        "id": "3977fc22-1a94-4e08-a626-f2c5e8c49944",
+        "name": "Морозова Н. П."
+      }
+    ],
+    "subjects": [
+      {
+        "id": "4542ee43-90a7-4c3a-9e40-57971a1faa09",
+        "name": "Математика"
+      },
+      {
+        "id": "38752274-e8e6-4081-9b48-60ca0424a18e",
+        "name": "Информатика"
+      },
+      {
+        "id": "5bc75d04-6a35-4d47-9850-2729294b205c",
+        "name": "Физика"
+      },
+      {
+        "id": "0b1f0f65-2781-470a-908a-f33611606404",
+        "name": "Программирование"
+      },
+      {
+        "id": "3c575959-0a68-4c13-9160-d6f5c6531609",
+        "name": "Базы данных"
+      },
+      {
+        "id": "9f93965f-01cb-478e-8e33-0aef18b62863",
+        "name": "Английский язык"
+      }
+    ]
+  }
+}
